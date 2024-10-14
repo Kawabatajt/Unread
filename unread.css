@@ -1,9 +1,68 @@
+* {
+    font-family: Inter;
+}
+body {
+    margin: 0;
+}
+
+
 header {
-    background-image: url("Image.jpg");
+    background-image: url(background.jpeg);
     background-color: #ffffff;
     height: 630px;
     margin: 0;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;    
+}
+nav {
+    margin: auto;
+    display: flex;
+    width: 1420px;
+    justify-content: space-between;
+}
+.nav-left {
+    display: flex;
+    gap: 10px  ;
+    justify-content: center;
+    
+}
+.nav-left img {
+    width: 134.8px;
+    height: 18px;
+}
+.nav-left p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.5);
+    ;
+}
+.haalt {
+    color: white;
+}
+.nav-right {
+    width: 359px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.nav-right p {
+    margin: 0;
+    font-size: 11.6px;
+    font-weight: 400;
+    opacity: 50%;
+}
+.nav-right h1 {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;  
+}
+.nav-button {
+    width: 142.68px;
+    height: 40px;
+    background-color: rgba(209, 209, 209, 0.6);
+    text-align: center;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
 }
