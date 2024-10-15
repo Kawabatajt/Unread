@@ -43,7 +43,8 @@
   }
   .nav-left p {
     margin: 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
+    font-weight: 200;
   }
   .haalt {
     color: white;
@@ -99,14 +100,14 @@
     height: 446px;
     border-radius: 20px;
     background-image: url(header-img.jpg);
-    background-size: 180%;
+    background-size: 160%;
     background-position: center;
     transition: all ease 1s;
     background-repeat: no-repeat;
   }
   .img-container:hover {
    
-    background-size: 200%;
+    background-size: 180%;
   }
   .header-topic {
     display: flex;
@@ -119,7 +120,6 @@
     font-weight: 900;
     font-size: 35px;
     margin: 0;
-    margin-bottom: 10px;
   }
   .Topic {
     color: #ffffff;
