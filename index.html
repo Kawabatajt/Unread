@@ -1,36 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="unread.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="unread.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <nav class="Nav-bar">
-            <div>
-            <div class="nav-left">
-            <img src="unread-logo.png" alt="Unread-logo">
+      <nav class="Nav-bar">
+        <div>
+          <div class="nav-left">
+            <img src="unread-logo.png" alt="Unread-logo" />
             <p class="haalt">|</p>
-            <p>Хайлт хийх</p>  
+            <div class="search-button">
+              <svg width="15px" height="15px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.7955 15.8111L21 21M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            <form action="/action_page.php" class="search">
+              <input class="search-2" type="text" placeholder="Хайлт хийх" name="search1"/>
+            </form>
             </div>
+          </div>
+        </div>
+        <div>
+          <div class="nav-right">
+            <p>Дараагийн нийтлэл:</p>
+            <h1>Techworm</h1>
+            <div class="nav-button">
+              Маргааш орно
+              <div class="Dot"></div>
             </div>
-            <div>
-            <div class="nav-right">
-                <p>Дараагийн нийтлэл:</p>
-                <h1>Techworm</h1>
-                <div class="nav-button">
-                    Маргааш орно
-                    <div class="Dot">
-                    </div>
-                </div>
+          </div>
+        </div>
+      </nav>
+      <section class="header-topic">
+        <div class="img-container">
+        </div>
+        <div class="header-titles">
+          <span>Шинэ</span>
+          <h3>Мэдүүштэй</h3>
+          <h1>Сониноос сорчилъё: Тоо</h1>
+          <h2 class="Topic">Юу? Сүлд үү? /2024.10.14/</h2>
+          <div class="header-bottom">
+            <div class="mini-profile">
+              <img src="profile.jpeg" alt="mini-profile">
             </div>
+            <div class="pro-texts">
+            <h1>Tushigt-Erdene</h1>
+            <h2>10 сарын 14, 2024 • 2 мин</h2>
             </div>
-        </nav>
+          </div>
+        </div>
+      </section>
     </header>
-</body>
+    <div class="hero-bottom"></div>
+  </body>
 </html>
