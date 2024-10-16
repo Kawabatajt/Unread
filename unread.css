@@ -194,3 +194,29 @@
     height: 327px;
     background-color: #000000;
   }
+  .slide {
+    width: 244px;
+    height: 360px;
+    border-radius: 9px;
+    background-image: url(slide-img.jpeg);
+  }
+  .slide h1 {
+    font-size: 15.8px;
+    margin: 0;
+    font-weight: 700px;
+    color: rgba(209, 209, 209, 0.8);
+  }
+  .slide-button {
+    width: 168px;
+    height: 23px;
+    border-radius: 20px;
+    background-color: rgba(0, 120, 246, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9.5px;
+    font-weight: 500;
+    color: white;
+    margin-left: 10px;
+
+  }
