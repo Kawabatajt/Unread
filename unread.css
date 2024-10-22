@@ -1,3 +1,4 @@
+
 * {
   font-family: SF Display, sans-serif;
 }
@@ -110,15 +111,20 @@ nav {
 }
 .header-topic {
   display: flex;
-  justify-content: center;
   gap: 100px;
-  align-items: center;
+  width: 1100px;
+  margin: 100px auto;
+}
+.header-titles {
+  padding-top: 60px;
 }
 .header-titles h1 {
   color: #ffffff;
   font-weight: 900;
   font-size: 35px;
   margin: 0;
+  max-width: 500px;
+  margin-bottom: 40px;
 }
 .Topic {
   color: #ffffff;
@@ -518,7 +524,10 @@ nav {
   align-items: center;
   color: rgba(136, 136, 136, 1);
   border-bottom: white 2px solid;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
+}
+.prev-week span {
+  font-weight: 400;
 }
 .prev-week:hover {
   border-bottom: 2px rgba(0, 120, 246, 1) solid;
