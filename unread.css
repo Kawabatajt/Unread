@@ -404,21 +404,18 @@ nav {
 .head {
   margin-top: 0;
 }
-.news-card1 .article-content {
-  padding-right: 120px;
-}
-.news-card4 .article-content {
-  padding: 0;
-}
 .tail {
   margin-top: 20px;
   justify-content: end;
 }
 .article {
   width: 739px;
-  height: 183px;
   border-radius: 0 27px 27px 27px;
   background-color: rgba(209, 209, 209, 0.3);
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .tail .article {
   border-radius: 27px 0 27px 27px;
@@ -432,12 +429,6 @@ nav {
 }
 .news-card3 .header-bottom1 h1 {
   padding-left:60px ;
-}
-.article {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  padding-top: 50px;
 }
 .article p {
   font-size: 12.4px;
@@ -467,6 +458,8 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  width: 350px;
+  padding-right: 100px;
 }
 .article-right {
   display: flex;
@@ -515,13 +508,9 @@ nav {
   gap: 100px;
 }
 .prev-week {
-  width: 212px;
-  height: 62px;
   font-size: 13.2px;
   font-weight: 700;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
   color: rgba(136, 136, 136, 1);
   border-bottom: white 2px solid;
   margin-bottom: 40px;
@@ -535,7 +524,6 @@ nav {
 }
 .grid {
   width: 1139px;
-  height: 639px;
   margin: auto;
   display: flex;
   gap: 20px;
@@ -732,7 +720,6 @@ nav {
   background-color: white;
 }
 footer {
-  height: 750px;
   background-color: rgba(0, 0, 0, 1);
 }
 .content-button {

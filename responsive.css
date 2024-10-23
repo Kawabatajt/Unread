@@ -1,6 +1,11 @@
 @media screen and (max-width: 600px) { 
+    html {
+        font-size: 100%;
+    }
     body {
-      
+      overflow-x: hidden;
+      width: 100%;
+      box-sizing: border-box !important;
     }
     header {
       
@@ -41,6 +46,9 @@
         margin: 0;
         margin-bottom: 20px;
     }
+    .header-topic {
+        width: 100%;
+    }
     .header-titles h3 {
         margin-top: 30px;
     }
@@ -56,31 +64,133 @@
         margin-right: 10px;
     }
     .slide-container {
-        max-width: 600px;
+        width: 100%;
         padding-left: 10px;
     }
     .article-container {
         max-width: 600px;
+        margin: 0;
+    }
+    .head {
+        margin: auto;
+        display: block;
+    }
+    .tail {
+        margin: auto;
+        display: block;
+    }
+    .news-card1 {  
+        margin-bottom: 44px;
+    }
+    .news-card {
+        margin-bottom: 44px;
+    }
+    .news-card2 {
+        margin-bottom: 44px;
+    }
+    .news-card3 {
+        margin-bottom: 44px;
+    }
+    .news-card4 {
+        margin-bottom: 44px;
     }
     .article {
         box-sizing: border-box;
         width: 100%;
+        justify-content: center;
+        align-items: center;
         margin: auto;
         padding: 30px 10px;
-        font-size: 8px;
     }
     .article p {
-        margin-bottom: 10px;
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+    .article h1 {
+        font-size: 18px;
     }
     .article-content{
         display: block;
-        padding: 0 !important;
+        width: 200px;
+        padding-right: 80px; 
     }
     .article-right img {
         width: 88px;
         height: 88px;
         border-radius: 50px;
     }
+    .dates {
+        display: flex;
+    }
+    .dates>div {
+        max-width: 300px;
+        margin: auto;
+        margin-bottom: 30px;   
+    }
+
+    .prev-week:nth-child(1){
+        display: block;
+    }
+    .prev-week:nth-child(2) {
+        display: inline;
+    }
+    .prev-week {
+        display: none;
+    }
+    .grid {
+        width: 100%; 
+        display: block;
+    }
+    .grid-left  {
+        width: 100%;
+        display: block;
+    }
+    .grid-left {
+        
+    }
+    .top-left {
+        width: 100%;
+        display: block;
+    }
+    .grid-bottom {
+        display: block;
+    }
+    .grid-right {
+        display: block;
+    }
+    .right-top  {
+        display: block;
+    }
+    .right-bottom {
+        display: block;
+    }
+    .bottom {
+        display: none;
+    }
+    .footer-content {
+        width: 100%;
+        display: block;
+    }
+    .footer-bottom {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .footer-right-bottom {
+        display: block;
+    }
+    .grid div {
+        width: 350px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .grid-background {
+        position: absolute;
+        bottom: -20px;
+    }
+}
+
+
+    
   
 
 
