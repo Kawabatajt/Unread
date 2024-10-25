@@ -514,7 +514,6 @@ nav {
 .prev-week {
   font-size: 13.2px;
   font-weight: 700;
-
   color: rgba(136, 136, 136, 1);
   border-bottom: white 2px solid;
   margin-bottom: 40px;
@@ -536,7 +535,7 @@ nav {
   height: 107px;
   width: 100%;
   box-sizing: border-box;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   bottom: 0;
   border-radius: 0 0 18px 18px;
@@ -901,6 +900,7 @@ footer {
   justify-content: space-between;
   margin: auto;
   margin-top: 80px;
+  padding-bottom: 20px;
 }
 .fb {
   justify-content: left;
