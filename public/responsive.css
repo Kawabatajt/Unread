@@ -163,14 +163,18 @@
   .right-bottom {
     display: block;
   }
-  .bottom {
+  ` .bottom {
     display: none;
   }
   .footer-title {
     justify-content: center;
   }
   .footer-right-mid {
-    text-align: center;
+    text-align: left;
+    padding: 0 20px;
+  }
+  .footer-right-mid p {
+    letter-spacing: 0.025rem;
   }
   .footer-content {
     width: 100%;

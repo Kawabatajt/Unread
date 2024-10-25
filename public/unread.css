@@ -516,6 +516,7 @@ nav {
   font-weight: 700;
   color: rgba(136, 136, 136, 1);
   border-bottom: white 2px solid;
+  padding-bottom: 15px;
   margin-bottom: 40px;
 }
 .prev-week span {
@@ -829,7 +830,9 @@ footer {
   margin: 0;
   font-size: 10px;
   font-weight: 400;
+  letter-spacing: 0.025rem;
   color: rgba(136, 136, 136, 1);
+  line-height: 0.8rem;
 }
 .footer-right-bottom {
   display: flex;
@@ -865,8 +868,6 @@ footer {
 .footer-right-bottom li:hover {
   color: #ffffff;
   transform: translateX(1px);
-}
-.fb-icon {
 }
 .fb-icon:hover {
   filter: invert(0.5) sepia(1);
